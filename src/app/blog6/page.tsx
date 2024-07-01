@@ -263,12 +263,11 @@ const BlogDetails = {
 function page() {
   return (
     <section>
-      <div className="max-width md:py-20 py-10 flex gap-14">
-        <div className="w-[80%]">
-          <div className="flex justify-center gap-4 text-2xl text-black">
-            <Link href={"/"}>Home »</Link>
-            <Link href={"/"}>Blogs</Link>
-            <p>6 Creative Ways to Market Your Hotel on a Shoestring Budget</p>
+      <div className="max-width md:py-20 py-10 lg:flex gap-14">
+        <div className="lg:w-[80%] mb-5">
+          <div className="text-center md:text-2xl text-sm text-black">
+            <p><Link href={"/"}>Home » </Link>
+              <Link href={"/"}>Blogs » </Link>6 Creative Ways to Market Your Hotel on a Shoestring Budget</p>
           </div>
 
           <div className="mt-8 flex flex-col gap-8">
@@ -439,7 +438,7 @@ function page() {
           </div>
         </div>
 
-        <div className="w-[20%]">
+        <div className="lg:w-[20%]">
           <h2 className="text-center text-black text-3xl font-bold underline">
             Recent Blogs
           </h2>

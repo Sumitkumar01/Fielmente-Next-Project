@@ -263,12 +263,11 @@ const BlogDetails = {
 export default function page() {
   return (
     <section>
-      <div className="max-width md:py-20 py-10 flex gap-14">
-        <div className="w-[80%]">
-          <div className="flex justify-center gap-4 text-2xl text-black">
-            <Link href={"/"}>Home »</Link>
-            <Link href={"/"}>Blogs »</Link>
-            <p> 6 Steps To Do Performance Marketing For Restaurants</p>
+      <div className="max-width md:py-20 py-10 lg:flex gap-14">
+        <div className="lg:w-[80%] mb-5">
+          <div className="text-center md:text-2xl text-sm text-black">
+            <p><Link href={"/"}>Home » </Link>
+              <Link href={"/"}>Blogs » </Link> 6 Steps To Do Performance Marketing For Restaurants</p>
           </div>
 
           <div className="mt-8 flex flex-col gap-8">
@@ -441,7 +440,7 @@ export default function page() {
           </div>
         </div>
 
-        <div className="w-[20%]">
+        <div className="lg:w-[20%]">
           <h2 className="text-center text-black text-3xl font-bold underline">
             Recent Blogs
           </h2>

@@ -6,16 +6,16 @@ import Logo from "../../../public/images/logo.webp";
 function page() {
   return (
     <section>
-      <div className="max-width md:py-20 py-10 flex gap-14">
-        <div className="w-[80%]">
-          <div className="flex justify-center gap-4 text-2xl text-black">
-            <Link href={"/"}>Home »</Link>
-            <Link href={"/"}>Blogs</Link>
-            <p>
+      <div className="max-width md:py-20 py-10 lg:flex gap-14">
+        <div className="lg:w-[80%] mb-5">
+          <div className="text-center md:text-2xl text-sm text-black">
+            <p><Link href={"/"}>Home » </Link>
+              <Link href={"/"}>Blogs » </Link>
               How to start Cloud Kitchen in India – Ultimate Guide to open the
               Cloud Kitchen
             </p>
           </div>
+
           <div className="mt-8 flex flex-col">
             <p className="text-black text-lg font-semibold">
               Why is opening a cloud kitchen a good idea?
@@ -208,7 +208,7 @@ function page() {
           </div>
         </div>
 
-        <div className="w-[20%]">
+        <div className="lg:w-[20%]">
           <h2 className="text-center text-black text-3xl font-bold underline">
             Recent Blogs
           </h2>

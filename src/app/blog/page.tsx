@@ -160,7 +160,7 @@ function page() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-3 gap-14 max-width py-20">
+      <div className="lg:grid lg:grid-cols-3 lg:gap-14 md:grid md:grid-cols-2 md:gap-10 max-width lg:py-20 !py-10">
         <BlogCard />
         <BlogCard />
         <BlogCard />
@@ -172,7 +172,7 @@ function page() {
 
 const BlogCard = () => {
   return (
-    <div className="rounded-2xl shadow-xl">
+    <div className="rounded-2xl shadow-xl mb-5 md:mb-0">
       <div className="relative w-full aspect-[4/2]">
         <Image
           src={Test}
